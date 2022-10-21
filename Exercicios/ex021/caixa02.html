@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: green;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.322);
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(214, 115, 115);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        article {
+            background-color: blueviolet;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: red;
+        }
+        footer > p {
+            margin: 0;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes politica tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ipsum eum eligendi. Illum, dolore inventore ipsa officiis consequuntur consequatur, optio sint distinctio quis cum architecto sapiente quaerat modi iste atque?</p>
+                <aside>
+                    <p>artigo escrito por Jose da silvaa</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Neymmar</p>
+    </footer>
+</body>
+</html>
