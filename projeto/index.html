@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 75px;
+            justify-content: center;
+            margin-top: 25vh;
+        }
+        div{
+            font-family: Roboto;
+            height: 400px;
+            width: 300px;
+            background-color: #F6F5FA;
+            margin: 20px;
+            display: inline-block;
+            box-shadow: 0px 5px 1px #92909083;
+            border: 1px solid #92909028;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        h1 {
+            margin-top: 30px;
+            margin-bottom: 13%;
+            font-size: 21px;
+            text-align: center;
+            text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.384);
+        }
+
+        h2 {
+            font-size: 18px;
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        h2.h2menor {
+            margin: auto;
+            padding: 7px;
+        }
+
+        aside {
+            height: 30px;
+            width: 250px;
+            margin: auto;
+            padding: 4px 0px;
+            text-align: center;
+            border-radius: 3px;
+            background-color: #D9D9D9;
+        }
+
+        h3 {
+            background-color: #0BA8EC;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            width: 150px;
+            margin: auto;
+            margin-top: 15px;
+            border-radius: 4px;
+            font-size: 16.5px;
+            margin-top: 40px;
+        }
+        h3#diferente {
+            margin: 25px auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Recuperar senha</h1>
+            <h2>CPF cadastrado:</h2>
+            <aside>Digite seu CPF</aside>
+            <h2>Email cadastrado:</h2>
+            <aside>Digite seu email</aside>
+            <h3>Enviar</h3>
+        </div>
+        <div>
+            <h1>Redefinir senha</h1>
+            <h2 class="h2menor">Código de verificação:</h2>
+            <aside>Digite o codigo de verificação</aside>
+            <h2 class="h2menor">Nova senha:</h2>
+            <aside>Digite a nova senha</aside>
+            <h2 class="h2menor">Repita a nova senha:</h2>
+            <aside>Digite a nova senha</aside>
+            <h3 id="diferente">Acessar</h3>
+        </div>
+    </section>
+</body>
+</html>
