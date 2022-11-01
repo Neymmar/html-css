@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+section {
+    margin: auto;
+}
+
+#inline {
+    display: inline-flex;
+    box-sizing: content-box;
+    margin: 15px;
+}
+
+aside {
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border: 2px solid #0ba8ec70;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    border: 2px solid #0ba8ec70;
+    border-radius: 8px;
+}
+
+h2 {
+    background-color: #0ba8ec;
+    color: white;
+    margin: 20px 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    min-width:320px;
+    border-radius: 5px;
+    text-align: center;
+}
